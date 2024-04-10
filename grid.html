@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>grid</title></head>
+        <style>
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:10px;
+    background-color: navy;
+    color: antiquewhite;
+    padding: 10px;
+}
+.grid-container>div{
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+.new1{
+                background-color: gray;
+                width: 200px;
+                height: 200px;
+                margin: 2px;
+          
+                align-items: center;
+               justify-content: center;
+            }
+.new1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.new3{
+    grid-row-start: 2; 
+    grid-row-end: 5;
+
+}
+#new{
+    display: flex;
+    flex-direction: row-reverse;
+}
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="new1">a</div>
+        <div class="new2">b</div>
+        <div class="new3">c</div>
+        <div class="new4">d</div>
+        <div class="new5">e</div>
+        <div class="new6">f</div>
+        <div class="new7">g</div>
+        <div class="new8">h</div>
+      
+    
+    
+        </div>
+        <div   id="new">
+            <div class="new1">a</div>
+            <div class="new1">b</div>
+            <div class="new1">c</div>
+        
+        </div>
+    
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>flex grow</title>
+        <style>
+            #i{
+                height: 100px;
+                width: 350px;
+                border: 1px solid black;
+                display: flex;
+                color: antiquewhite;
+                text-align: center;
+            }
+            #i div:nth-of-type(1){
+                flex-grow: 1;
+                flex-basis: 30%;
+            }
+            #i div:nth-of-type(2){
+                flex-grow: 5;
+                
+            }
+            #i div:nth-of-type(3){
+                flex-grow: 2;
+                
+            }
+            #i div:nth-of-type(4){
+                flex-grow: 3;
+                
+            }
+            </style>
+    </head>
+    <body>
+        
+        <div id="i">
+            <div style="background-color: violet;">html</div>
+            <div style="background-color: indigo;">css</div>
+            <div style="background-color: blue;">java</div>
+            <div style="background-color: green;">boot</div>
+            
+        </div>
+        <div   id="l">
+            <div class="new">a</div>
+            <div class="new">b</div>
+            <div class="new">c</div>
+        
+        </div>
+        </body>
+        </html>
