@@ -1,0 +1,25 @@
+body{
+    font-size: 1.6rem;
+}
+.lfloat{
+    background-color: rgb(202, 189, 38);
+    width: 20vw;
+    height: 30vh;
+    color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+}
+.lfloat{
+   
+    float: left;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}
+section{
+    display: flow-root;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border: 2px solid red;
+}
