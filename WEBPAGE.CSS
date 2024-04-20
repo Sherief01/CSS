@@ -1,0 +1,68 @@
+
+  *{
+      scroll-behavior:smooth;
+    max-width: 100%;}
+  header{ 
+
+    position: sticky ;
+    top:0px;
+   
+      background-color:black;
+      display: flex;
+     
+      
+
+      }
+      
+      p{
+        
+          
+       
+        color: orangered;
+        font-family: Matura MT Script Capitals;
+        font-style:Matura MT Script Capitals;
+        font-size: 4rem;
+      }
+  body{
+      background-color:antiquewhite;
+      height: 200vh;
+      }
+    
+  
+    li{
+      
+        background-color: black;
+       color: antiquewhite;
+        display: inline;
+        flex-wrap: wrap;
+        flex-flow: column; 
+        cursor:pointer;
+        
+    }
+    li:hover{
+      color: orangered;
+      text-decoration: underline;
+    }
+   
+    .bc{
+      box: 20px;
+      box-shadow: 0 6px 2px;
+      
+     color: orangered;
+      top: 500;
+      position: sticky;
+      text-align-last: right ;
+
+    }
+    .ac{
+      box-shadow: 0 6px 2px;
+      
+      color: darkgreen;
+      position: sticky;
+      top:  500;
+
+    }
+ 
+ button{
+  size: 200px;
+ }
